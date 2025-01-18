@@ -121,7 +121,7 @@ export default function Home() {
               alt="desc"
             />
             <ProjectCategory>Mobile-Responsive User Interface</ProjectCategory>
-            <ProjectTitle>L’Alliance Française</ProjectTitle>
+            <ProjectTitle>L&apos;Alliance Française</ProjectTitle>
             <ProjectSummary>
               I created a digital student and member experience for the Houston
               chapter of the Alliance utilizing AI.
@@ -138,19 +138,19 @@ export default function Home() {
         />
         <div className="mt-12 space-y-6 text-lg mx-2 sm:mx-4 md:mx-6 lg:mx-8 xl:mx-12">
           <p className="font-bold">
-            I am deeply committed to the principle, "Nothing about us without
-            us."
+            I am deeply committed to the principle, &quot;Nothing about us without
+            us.&quot;
           </p>
           <p>
-            This philosophy is what makes UX design so meaningful to me. It’s
-            not just about crafting solutions—it’s about ensuring the people who
+            This philosophy is what makes UX design so meaningful to me. It&apos;s
+            not just about crafting solutions—it&apos;s about ensuring the people who
             need those solutions are part of the journey from the very start. UX
             design creates a bridge between pressing challenges and impactful
             outcomes by centering the voices of those affected.
           </p>
           <p>
             For me, accessibility and inclusion are essential; they should guide
-            every step of the design process. I’m passionate about designing
+            every step of the design process. I&apos;m passionate about designing
             with, not just for, users—ensuring their needs and experiences drive
             the solutions we create.
           </p>
