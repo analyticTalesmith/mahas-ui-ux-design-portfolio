@@ -18,7 +18,7 @@ export default function Home() {
             </StackedSVG>
             <p className="text-2xl sm:text-5xl tracking-tighter font-semibold">Welcome!</p>
             <h1 className="font-black tracking-tightest text-4xl sm:text-7xl">
-              I'm Maha, a Product Designer
+              I&apos;m Maha, a Product Designer
             </h1>
             <p className="mb-8 font-semibold">
               with an idealist mindset, a love for empathetic conversations, and

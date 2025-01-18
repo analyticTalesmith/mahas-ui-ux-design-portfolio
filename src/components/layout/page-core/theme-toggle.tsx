@@ -1,7 +1,7 @@
 "use client";
 import { useState, useEffect } from "react";
 import { useTheme } from "next-themes";
-import { Monitor, Sun, Moon, ChevronDown } from "lucide-react";
+import { Monitor, Sun, Moon } from "lucide-react";
 import { BoldButton } from "@/components/ui/button";
 
 
@@ -15,7 +15,7 @@ import {
 const ThemeToggle = () => {
   const [mounted, setMounted] = useState(false);
   // Track what the theme is set to (system/light/dark)
-  const { theme, setTheme, systemTheme, resolvedTheme } = useTheme();
+  const { theme, setTheme} = useTheme();
 
   useEffect(() => {
     setMounted(true);

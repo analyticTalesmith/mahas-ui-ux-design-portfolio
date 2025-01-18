@@ -90,10 +90,10 @@ const largePillButtonColorClassMap = {
 type PillColorVariant = keyof typeof largePillButtonColorClassMap;
 
 interface LargePillButtonProps extends ButtonProps {
-  color: ColorVariant;
+  color: PillColorVariant;
 }
 
-const LargePillButton = React.forwardRef<HTMLButtonElement, BoldButtonProps>(
+const LargePillButton = React.forwardRef<HTMLButtonElement, LargePillButtonProps>(
   ({ color, className, children, ...props }, ref) => {
     return (
       <Button
@@ -117,7 +117,7 @@ const LargePillButton = React.forwardRef<HTMLButtonElement, BoldButtonProps>(
   }
 );
 
-BoldButton.displayName = "BoldButton";
+LargePillButton.displayName = "LargePillButton";
 
 
 export { Button, BoldButton, LargePillButton }
