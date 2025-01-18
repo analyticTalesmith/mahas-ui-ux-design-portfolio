@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
+import Image from 'next/image';
 
 // Container component for the whole card
 const ProjectCard = ({ children }: {children: React.ReactNode}) => {
@@ -17,7 +18,7 @@ interface FeaturedImageProps {
 }
 
 const FeaturedImage: React.FC<FeaturedImageProps> = ({ src, alt }) => {
-  return <img src={src} alt={alt} className="w-full h-full object-contain mb-8 max-h-96" />;
+  return <Image src={src} alt={alt} className="w-full h-full object-contain mb-8 max-h-96" />;
 };
 
 // Category component
