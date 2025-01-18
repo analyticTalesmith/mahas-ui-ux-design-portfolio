@@ -18,7 +18,7 @@ interface FeaturedImageProps {
 }
 
 const FeaturedImage: React.FC<FeaturedImageProps> = ({ src, alt }) => {
-  return <Image src={src} alt={alt} className="w-full h-full object-contain mb-8 max-h-96" />;
+  return <Image src={src} alt={alt} width="0" height="0" className="w-full h-full object-contain mb-8 max-h-96"  />;
 };
 
 // Category component

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const WebsiteFooter = () => {
   return (
-    <footer className="mt-auto bg-surface-container-lowest text-on-surface font-parkinsans border-t-2 border-outline min-h-50">
+    <footer className="mt-auto bg-surface-container-lowest text-on-surface font-josefin-sans border-t-2 border-outline min-h-50">
       <div className="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
         <div className="mx-auto max-w-screen-xl text-center">
           <Link

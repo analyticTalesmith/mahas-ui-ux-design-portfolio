@@ -10,7 +10,7 @@ const CenteredContainer: React.FC<CenteredContainerProps> = ({ children, classNa
   return (
     <div className="flex justify-center items-center m-2 sm:m-4 md:m-6 lg:m8 xl:m-16">
       <div
-        className={cn("flex flex-col w-full max-w-7xl p-8",
+        className={cn("flex flex-col w-full max-w-5xl p-8",
           className)}
       >
         {children}

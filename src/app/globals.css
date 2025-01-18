@@ -53,19 +53,19 @@ body {
   }
 
   .styled-p {
-    @apply font-parkinsans font-normal text-base tracking-wide;
+    @apply font-josefin-sans font-normal text-base tracking-wide;
   }
 
   .styled-caption {
-    @apply font-parkinsans font-normal text-xs tracking-3x-wide;
+    @apply font-josefin-sans font-normal text-xs tracking-3x-wide;
   }
 
   .styledfigcaption {
-    @apply font-parkinsans font-normal text-xs tracking-3x-wide;
+    @apply font-josefin-sans font-normal text-xs tracking-3x-wide;
   }
 
   .styled-button {
-    @apply font-parkinsans font-medium text-base tracking-x-wide uppercase;
+    @apply font-josefin-sans font-medium text-base tracking-x-wide uppercase;
   }
 
   .focus-bold {
@@ -352,6 +352,6 @@ body {
     @apply border-outline;
   }
   body {
-    @apply bg-background text-on-background font-parkinsans;
+    @apply bg-background text-on-background font-josefin-sans;
   }
 }
