@@ -147,4 +147,4 @@ const StackedSVG: React.FC<StackedSVGProps> = ({
   );
 };
 
-export { StackedSVG };
+export { StackedSVG, svgColorClassMap };

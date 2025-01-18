@@ -101,7 +101,7 @@ const LargePillButton = React.forwardRef<HTMLButtonElement, LargePillButtonProps
         className={cn(
           "font-bold text-xl font-josefin-sans my-8 p-8 border-4 uppercase",
           "relative flex items-center justify-center overflow-hidden",
-          "before:ease relative overflow-hidden",
+          "before:ease relative overflow-hidden tracking-x-wide",
           "transition-all before:absolute before:right-0 before:top-0 before:h-40",
           "before:w-6 before:translate-x-12 before:rotate-6 before:bg-white before:opacity-10 before:duration-500",
           "hover:before:-translate-x-80",

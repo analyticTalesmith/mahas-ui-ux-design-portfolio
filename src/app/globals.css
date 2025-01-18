@@ -28,43 +28,43 @@ body {
     -webkit-font-smoothing: antialiased;
   }
 
-  .global h1 {
-    @apply font-josefin-slab font-light text-5xl tracking-tighter;
+  .styled-h1 {
+    @apply font-josefin-slab font-bold text-5xl tracking-tighter;
   }
 
-  .global h2 {
-    @apply font-josefin-slab font-light text-4xl tracking-tight;
+  .styled-h2 {
+    @apply font-josefin-slab font-bold text-4xl tracking-tight;
   }
 
-  .global h3 {
+  .styled-h3 {
     @apply font-josefin-slab font-normal text-3xl tracking-normal;
   }
 
-  .global h4 {
+  .styled-h4 {
     @apply font-josefin-slab font-normal text-2xl tracking-wide;
   }
 
-  .global h5 {
+  .styled-h5 {
     @apply font-josefin-slab font-normal text-xl tracking-wider;
   }
 
-  .global h6 {
+  .styled-h6 {
     @apply font-josefin-slab font-medium text-lg tracking-widest;
   }
 
-  .global p {
+  .styled-p {
     @apply font-parkinsans font-normal text-base tracking-wide;
   }
 
-  .global caption {
+  .styled-caption {
     @apply font-parkinsans font-normal text-xs tracking-3x-wide;
   }
 
-  .global figcaption {
+  .styledfigcaption {
     @apply font-parkinsans font-normal text-xs tracking-3x-wide;
   }
 
-  .global button {
+  .styled-button {
     @apply font-parkinsans font-medium text-base tracking-x-wide uppercase;
   }
 
